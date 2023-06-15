@@ -1,0 +1,56 @@
+<svg class="tree" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"  preserveAspectRadio="xMinyMin meet" xml:space="preserve">
+<style type="text/css">
+
+
+
+
+
+.light-brown { fill: #71350B; }
+.brown { fill: #71350B; }
+.dark-green { fill: #534504; }
+.light-green { fill: #553B06; }
+.white { fill: #ffffff; }
+
+.shake {
+	animation: moveShake .75s ease-in-out 1s 3;
+}
+
+/* Animation - Moving branch */
+@keyframes moveShake {
+  10%  { transform: translatex(10px); }
+  20%  { transform: translatex(-10px); }
+	40%  { transform: translatex(5px); }
+  60%  { transform: translatex(-5px); }
+	80%  { transform: translatex(10px); }
+	100% { transform: translatex(-10px); }
+}
+
+.appears {
+	transform: translate(0px,60px);
+	animation: shows .25s ease-in-out 3.5s 1 forwards;
+}
+
+/* Animation - Squirrel appears */
+@keyframes shows {
+  0%   { transform: translatey(60px); }
+	75%  { transform: translatey(-10px); }
+	100% { transform: translatey(0px); }
+}
+</style>
+		<ellipse class="shadow light-brown" cx="283" cy="700.5" rx="98" ry="8.5"/>
+		<rect class="trunk brown" x="264" y="520" width="36" height="178"/>
+		<circle class="dark-green" cx="282" cy="283" r="131"/>
+		<path class="brown appears" d="M395.063,287.177c-0.061,0.058-0.12,0.115-0.181,0.172c-5.708-5.77-13.625-9.349-22.383-9.349
+			c-0.684,0-1.36,0.029-2.034,0.072C354.019,279.122,341,292.787,341,309.5c0,4.187,0.824,8.178,2.307,11.833
+			C338.746,326.796,336,333.827,336,341.5c0,17.397,14.104,31.5,31.5,31.5s31.5-14.103,31.5-31.5c0-4.187-0.824-8.178-2.307-11.833
+			c4.561-5.464,7.307-12.494,7.307-20.167c0-1.176-0.07-2.336-0.195-3.479c-0.004-0.031-0.009-0.062-0.013-0.093
+			c4.804-0.458,9.573-2.012,13.921-4.784c2.792-1.781,5.205-3.929,7.224-6.34C412.318,298.183,402.432,294.207,395.063,287.177z"/>
+		<polygon class="light-brown appears" points="378,375 334,375 334,299 344.333,309 367,309 378,299 "/>
+		<circle class="white appears" cx="342.667" cy="324.333" r="5.333"/>
+		<circle class="white appears" cx="367.667" cy="324.333" r="5.333"/>
+		<circle class="light-green" cx="162" cy="347" r="38"/>
+		<circle class="light-green shake" cx="351" cy="395" r="54.459"/>
+		<polygon class="branches brown" points="264,520 175,439 162,373 175,370 187,429 270,494 270,358 293,358 293,496 358,454 336,422 346,418 
+			368,449 368,403 381,403 381,463 300,520 "/>
+	</svg>
+

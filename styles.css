@@ -1,37 +1,53 @@
-html {
+html,
+body {
   font-family: "Patrick Hand SC", cursive;
   color: #71350b;
+  background-color: #f5daac;
+  height: 100%;
 }
 
 body {
   margin: 0;
-  height: 100%;
-}
-
-#mainTitle {
-  font-size: 4rem;
 }
 
 .section {
-  background-color: #f5daac;
   height: 100vh;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-}
-
-#grootDancing {
-  width: auto;
-  height: 30%;
-  /* object-fit: cover;
-  object-position: center; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-bottom: #71350b 2px dashed;
 }
 
 #subtitle {
   display: flex;
   flex-direction: column;
   padding-bottom: 2rem;
+  font-size: 2rem;
+}
+
+#mainTitle {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#heroImage {
+  width: auto;
+  height: 30%;
+}
+
+.sectionHeading {
+  font-size: 3rem;
+  text-align: left;
+}
+
+.sectionParagraph {
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .arrowDown {
@@ -60,4 +76,68 @@ body {
   100% {
     transform: translateY(0);
   }
+}
+
+.sectionImage {
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+}
+
+.heart {
+  animation: 2s infinite beatHeart;
+}
+
+@keyframes beatHeart {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.gridGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.gridGallery img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.websiteLinks {
+  font-size: 1.5rem;
+  text-align: left;
+  list-style-type: none;
+}
+.websiteLinks a {
+  text-decoration: underline;
+  color: #333333;
+  margin: 0 5px;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
 }
