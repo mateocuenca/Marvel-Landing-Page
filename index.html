@@ -11,6 +11,194 @@
       name="description"
       content="Discover the incredible world of Groot, the lovable tree-like superhero from Marvel. Learn about Groot's origins, powers, and his heartwarming personality traits. Explore his regenerative abilities, plant manipulation powers, and his unwavering loyalty to his friends. Immerse yourself in the captivating story behind the iconic 'We are Groot' quote. Get ready to be amazed by Groot's resilience, bravery, and the power of unity."
     />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/2ad1bf4b88.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href="#" id="logo">Groot's Landing Page</a>
+        <ul>
+          <li><a href="#who-is-groot">Who is Groot?</a></li>
+          <li><a href="#character-bio">Character bio</a></li>
+          <li><a href="#powers-and-abilities">Powers and abilities</a></li>
+          <li><a href="#we-are-all-groot">We are all Groot</a></li>
+          <li><a href="#image-gallery">Image Gallery</a></li>
+          <li><a href="#more-groot-info">More Groot's info</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section">
+        <h1 id="mainTitle">"I am Groot"</h1>
+        <img
+          id="heroImage"
+          src="assets/groot-dancing.svg"
+          alt="Groot dancing inside a pink pot"
+        />
+        <h2 id="subtitle">
+          <div>Landing Page dedicated to</div>
+          <div>the gentle giant with a</div>
+          <div>heartwarming personality</div>
+        </h2>
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="arrowDown"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"
+            />
+          </svg>
+          <p class="nextSectionTitle">Meet Groot</p>
+        </div>
+      </section>
+      <section class="section" id="who-is-groot">
+        <h3 class="sectionHeading">Who is Groot?</h3>
+        <p class="sectionParagraph">
+          Hey there! Welcome to Groot's world. Let's dive into what makes this
+          lovable Marvel character so special. Groot is an extraordinary being
+          known for his tree-like appearance, but don't let his bark fool you -
+          he's got a heart of gold!
+        </p>
+        <figure>
+          <img
+            class="sectionImage heart"
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png"
+            alt=""
+          />
+          <figcaption>Heart beating</figcaption>
+        </figure>
+      </section>
+      <section class="section" id="character-bio">
+        <h3 class="sectionHeading">Character bio</h3>
+        <p class="sectionParagraph">
+          Originally from Planet X, Groot belongs to a species of sentient
+          tree-like creatures. Despite his intimidating appearance, Groot is
+          kind, loyal, and protective of his friends. He's known for his
+          selflessness and willingness to sacrifice himself for the greater
+          good.
+        </p>
+        <figure>
+          <img
+            class="sectionImage"
+            src="assets/baby-groot.png"
+            alt="Baby groot balancing on one leg"
+          />
+          <figcaption>Baby Groot dancing</figcaption>
+        </figure>
+      </section>
+      <section class="section" id="powers-and-abilities">
+        <h3 class="sectionHeading">Powers and Abilities</h3>
+        <p class="sectionParagraph">
+          When it comes to powers and abilities, Groot is truly one-of-a-kind.
+          His incredible strength is matched only by his impressive regenerative
+          abilities. No matter how much he's damaged, he can regrow and heal
+          himself in no time. Talk about resilience!
+        </p>
+        <figure>
+          <img
+            class="sectionImage"
+            src="assets/tree-animation.svg"
+            alt="Groot dancing inside a pink pot"
+          />
+          <figcaption>
+            Groot, like trees, has the ability to regenerate his body.
+          </figcaption>
+        </figure>
+      </section>
+      <section class="section" id="we-are-all-groot">
+        <h3 class="sectionHeading">“We are all groot”</h3>
+        <p class="sectionParagraph">
+          The quote "We are Groot" has a touching story. During a mission, Groot
+          sacrifices himself to protect his friends from imminent danger. The
+          Guardians of the Galaxy witness his selfless act with tears in their
+          eyes.
+        </p>
+        <figure>
+          <img
+            class="sectionImage"
+            src="assets/baby-groot-laying-his-hand.png"
+            alt="Groot laying his hand on his face"
+          />
+          <figcaption>Groot laying his hand on his face</figcaption>
+        </figure>
+      </section>
+      <section class="section" id="image-gallery">
+        <h3 class="sectionHeading">Image Gallery</h3>
+        <div class="gridGallery">
+          <img
+            src="assets/gallery/groot-watching.jpg"
+            alt="Big Groot looking at something"
+          />
+          <img
+            src="assets/gallery/groot-and-rocket.jpg"
+            alt="Groot and Rocket Fighting together"
+          />
+          <img
+            src="assets/gallery/groot-surprised.jpg"
+            alt="Baby Groot surprised opening his mouth"
+          />
+          <img src="assets/gallery/groot-smiling.png" alt="Big Groot smiling" />
+          <img
+            src="assets/gallery/groot-profile.jpg"
+            alt="Big Groot with serious face"
+          />
+          <img
+            src="assets/gallery/big-groot.jpeg"
+            alt="Big Groot listening a conversation"
+          />
+          <img
+            src="assets/gallery/groot-and-guardians.jpeg"
+            alt="Big Groot and the Guardians of galaxy"
+          />
+        </div>
+      </section>
+      <section class="section" id="more-groot-info">
+        <h3 class="sectionHeading">More Groot's info</h3>
+        <p class="sectionParagraph">
+          For information about Groot search in the following links:
+        </p>
+        <ul class="websiteLinks">
+          <li class="linkContainer">
+            <img src="assets/icons8-instagram-icon.svg" alt="Instagram icon" />
+            <a href="https://www.instagram.com/marvel_edits.in/" target="_blank"
+              >Instagram - I Am Groot Fan Page</a
+            >
+          </li>
+          <li class="linkContainer">
+            <img src="assets/icons8-instagram-icon.svg" alt="Instagram icon" />
+            <a href="https://example.com" target="_blank"
+              >Instagram - Baby Groot Fan Page</a
+            >
+          </li>
+          <li class="linkContainer">
+            <img src="assets/web-50-icon.png" alt="Website Icon" />
+            <a href="https://www.marvel.com/characters/groot" target="_blank"
+              >Marvel's Web Page - Groot's official character website</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 Mateo Rodriguez Cuenca</p>
+    </footer>
+  </body>
 </html>
