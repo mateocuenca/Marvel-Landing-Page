@@ -141,3 +141,8 @@ body {
   justify-content: flex-start;
   padding: 2rem;
 }
+
+footer p {
+  text-align: center;
+  padding-bottom: 4px;
+}
