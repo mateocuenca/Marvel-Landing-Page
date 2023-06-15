@@ -209,7 +209,7 @@ footer p {
   padding-top: 4px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1250px) {
   #logo {
     font-size: 30px;
   }
@@ -245,5 +245,12 @@ footer p {
 
   #check:checked ~ ul {
     left: 0;
+  }
+}
+
+@media (min-width: 1080px) {
+  .section {
+    padding-left: 20rem;
+    padding-right: 20rem;
   }
 }
